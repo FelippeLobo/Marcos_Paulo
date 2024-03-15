@@ -3,17 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Item
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - groundMask
-  - Jumpable
   - Water
   - UI
-  - 
-  - 
+  - UI
+  - Item
   - 
   - 
   - 
