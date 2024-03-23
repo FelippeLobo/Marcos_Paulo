@@ -54,7 +54,7 @@ public class Pistol : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletPrefab, shootPoint.position, rotation);
         Projectile projectile = bullet.GetComponent<Projectile>();
-        projectile.SetDirection(shootDirection);
+        projectile.SetDirection(shootDirection, 1);
 
         currentAmmo--;
 

@@ -13,9 +13,10 @@ public class Projectile : MonoBehaviour
     }
 
     // Função para definir a direção do disparo
-    public void SetDirection(Vector3 direction)
+    public void SetDirection(Vector3 direction, float speedModifier)
     {
         shootDirection = direction.normalized;
+        //speed *= speedModifier;
     }
 
     void Update()
